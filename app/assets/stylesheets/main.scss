@@ -1,0 +1,32 @@
+.alert{
+  width: 200px;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'LatoBold';
+  position: fixed;
+  top: 5%;
+  left: calc(50% - 100px);
+  margin-left: -50px;
+  z-index: 99999;
+}
+
+.alert-success{
+  border: 2px solid #9999ff;
+}
+.alert-danger{
+  border: 2px solid #ff9999;
+}
+
+.alert {
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
