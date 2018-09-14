@@ -8,7 +8,6 @@
   position: fixed;
   top: 5%;
   left: calc(50% - 100px);
-  margin-left: -50px;
   z-index: 99999;
 }
 
@@ -29,4 +28,33 @@
     animation: cssAnimation 0s ease-in 5s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+body {
+}
+
+.nav, .box{
+  position: fixed;
+  background-color: #00ff00;
+  width: 80%;
+  left: 10%;
+  font-size: 25pt;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 3px solid #00ffff;
+  border-radius: 15px;
+
+  box-shadow: 3px 5px 5px #aaa;
+  -webkit-box-shadow: 3px 5px 5px #aaa;
+  -moz-box-shadow: 3px 5px 5px #aaa;
+}
+.nav{
+
+  font-family: 'Chewy';
+  z-index: 9999;
+}
+.box{
+  text-align: center;
+  top: 100px;
+  position: relative;
+  height: 400px;
 }
